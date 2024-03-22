@@ -32,7 +32,10 @@ const Index = () => {
 
   return (
     <Box maxWidth="1200px" mx="auto" p={8}>
-      <Heading mb={8}>Legal Workflow Management</Heading>
+      <Heading mb={2}>Leya - AI-Powered Legal Workflow Management</Heading>
+      <Text fontSize="xl" mb={8}>
+        Powered by Artificial Intelligence
+      </Text>
 
       <HStack mb={8} spacing={4} alignItems="flex-start">
         <VStack alignItems="stretch" minWidth="50%">
@@ -164,7 +167,7 @@ const Index = () => {
       <Box textAlign="center">
         <Image src="https://images.unsplash.com/photo-1559523182-a284c3fb7cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxsYXclMjBmaXJtJTIwb2ZmaWNlfGVufDB8fHx8MTcxMTEyMTYyMHww&ixlib=rb-4.0.3&q=80&w=1080" maxHeight="300px" mx="auto" />
         <Text fontSize="sm" color="gray.500">
-          Streamline your legal practice with our workflow management solution
+          Streamline your legal practice with Leya, our AI-powered workflow management solution
         </Text>
       </Box>
     </Box>
